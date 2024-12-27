@@ -1,179 +1,149 @@
-### **Project Name: Cricbuzz IPL Clone**
+### **Project Name: Hotstar Clone**
 
-The **Cricbuzz IPL Clone** is a full-stack project built using the MEAN (MongoDB, Express.js, Angular 17, Node.js) stack. This application provides IPL cricket match updates, player details, team stats, and more, mirroring the functionality of Cricbuzz. It includes responsive UI components, data handling through MongoDB, and real-time updates.
+The **Hotstar Clone** is a web application built using HTML, CSS, and JavaScript to replicate the user experience and functionality of the Hotstar streaming platform. This project is designed as a hands-on learning experience for beginners and intermediate developers to gain proficiency in front-end web development.
 
 ---
 
 ### **Mission and Objectives**
 
+---
+
 #### **Mission:**
-To develop a feature-rich IPL cricket website using the MEAN stack, offering users real-time match updates, player information, and team statistics.
+To create an interactive and visually appealing clone of the Hotstar platform that enables users to explore streaming functionality through a web application.
 
 #### **Objectives:**
-1. **Responsive UI:**
-   - Develop a fully responsive web application using Angular 17.
-   - Ensure compatibility across devices.
+1. **Frontend Development:**
+   - Design and implement a responsive user interface.
+   - Utilize modern web technologies like HTML, CSS, and JavaScript.
 
-2. **Data Management:**
-   - Use MongoDB for storing match data, team details, and player stats.
-   - Implement CRUD operations for data management.
+2. **User Interaction:**
+   - Develop features like navigation menus, carousels, and search functionality.
+   - Implement smooth animations and transitions.
 
-3. **User Interaction:**
-   - Enable users to view IPL schedules, live scores, and match highlights.
-   - Provide team and player statistics.
-
-4. **Integration:**
-   - Use Node.js and Express.js for backend API development.
-   - Integrate Gmail for sending updates and notifications.
-
-5. **Deployment:**
-   - Deploy the application on a scalable platform.
+3. **Deployment:**
+   - Deploy the application to a web server for accessibility.
 
 ---
 
 ### **Technology Stack**
 
 #### **Frontend**
-1. **Angular 17**
-   - **Why?**: Robust framework for building dynamic, single-page applications.
-   - **Use Case**: Develops responsive and interactive UI components.
+1. **HTML**
+   - **Why?**: Defines the structure of the web pages.
+   - **Use Case**: Used to create the layout of the Hotstar clone, including headers, footers, and content sections.
 
 2. **CSS**
-   - **Why?**: Styles the application for a visually appealing user interface.
-   - **Use Case**: Designs components such as the navbar, scorecards, and team pages.
+   - **Why?**: Styles the application to make it visually appealing.
+   - **Use Case**: Used for responsive design, carousels, and animation effects.
 
----
-
-#### **Backend**
-1. **Node.js**
-   - **Why?**: Handles asynchronous operations efficiently.
-   - **Use Case**: Manages server-side logic and APIs.
-
-2. **Express.js**
-   - **Why?**: Simplifies API development.
-   - **Use Case**: Defines routes for fetching and managing cricket data.
-
----
-
-#### **Database**
-1. **MongoDB**
-   - **Why?**: Flexible NoSQL database for storing cricket data.
-   - **Use Case**: Stores match schedules, team details, player stats, and user data.
-
----
+3. **JavaScript**
+   - **Why?**: Adds interactivity to the application.
+   - **Use Case**: Implements navigation, search functionality, and dynamic content updates.
 
 #### **Deployment**
-1. **MongoDB Atlas**
-   - **Why?**: Cloud-hosted MongoDB solution for scalability.
-   - **Use Case**: Hosts the database for the application.
-
-2. **Hosting Platforms**
-   - **Why?**: Ensures the application is accessible online.
-   - **Use Case**: Deploys the frontend and backend for public use.
+1. **GitHub Pages**
+   - **Why?**: Simple and free hosting for static websites.
+   - **Use Case**: Hosts the Hotstar Clone project for public access.
 
 ---
 
-### **Workflow Overview**
-The application workflow involves users accessing live match updates, viewing team and player details, and navigating through IPL schedules. Admins can manage match data and send notifications via Gmail.
+## **Workflow Overview**
 
----
+The application workflow involves users navigating through the clone, exploring carousels of movies and shows, and interacting with features such as search and navigation.
 
 ### **FlowChart**
+
 ![image](https://github.com/user-attachments/assets/fee808c1-d980-4fb7-a87f-e9f6eda49c6d)
 
 ---
 
 ### **Project Structure for Feature Implementation**
+
 This project is structured to ensure a systematic and incremental development process. Each week builds upon the previous deliverables, enabling a smooth transition from basic to advanced functionalities.
 
 **NOTE:** Participants are encouraged to customize the design and functionality to make the application unique.
 
 ---
 
-### **Week-by-Week Learning Plan**
+## **Week-by-Week Learning Plan**
 
 ---
 
-### **Week 1: Project Setup and Basic UI**
-- **Goal:** Initialize the project and design the basic UI.
+### **Week 1: Project Setup and UI Design**
+- **Goal:** Set up the foundational structure and design the app’s user interface.
 - **Tasks:**
-  1. Install Angular 17 and set up the project.
-     - **Reading:** [Angular 17 Setup Guide](https://v17.angular.io/guide/setup-local)
-     - **Video:** [Angular Navbar Setup](https://www.youtube.com/watch?v=Zxwq3aW9ctU)
-  2. Create a responsive navbar.
-     - **Reading:** [Angular Components Guide](https://angular.io/guide/component-overview)
-     - **Video:** [Create Navbar in Angular](https://www.youtube.com/watch?v=TeZdo8mx0gc)
-  3. Set up MongoDB and import `db.json` file.
-     - **Reading:** [MongoDB Compass Guide](https://www.mongodb.com/docs/compass/)
-     - **Video:** [Install MongoDB Compass](https://www.youtube.com/watch?v=uj4OYk5nKCg)
+  1. Create the project folder structure and initialize the HTML, CSS, and JavaScript files.
+     - **Reading:** [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+     - **Video:** [HTML Crash Course](https://www.youtube.com/watch?v=UB1O30fR-EE)
+  2. Build the basic layout for the homepage, including headers, carousels, and footers.
+     - **Reading:** [CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+     - **Video:** [CSS Crash Course](https://www.youtube.com/watch?v=yfoY53QXEnI)
 
 - **Deliverables:**
-  - Project setup with a responsive navbar.
-  - MongoDB database connection established.
+  - A responsive homepage layout with placeholders for content.
 
 ---
 
-### **Week 2: Match Schedules and Team Pages**
-- **Goal:** Build pages for IPL schedules and team details.
+### **Week 2: Navigation and Footer**
+- **Goal:** Add a fully functional navigation bar and footer.
 - **Tasks:**
-  1. Create APIs for fetching match schedules and team data.
-     - **Reading:** [Express.js Routing](https://expressjs.com/en/guide/routing.html)
-     - **Video:** [Express.js Crash Course](https://www.youtube.com/watch?v=7H_QH9nipNs)
-  2. Design schedule and team pages in Angular.
-     - **Reading:** [Angular Router Documentation](https://angular.io/guide/router)
-     - **Video:** [Angular Routing Tutorial](https://www.youtube.com/watch?v=3qBXWUpoPHo)
+  1. Implement the navigation menu with dropdown options.
+     - **Reading:** [Responsive Navigation](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+     - **Video:** [Responsive Navbar Tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg)
+  2. Style the footer with links and contact information.
+     - **Reading:** [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+     - **Video:** [CSS Grid Layout Tutorial](https://www.youtube.com/watch?v=EFafSYg-PkI)
 
 - **Deliverables:**
-  - Functional schedule and team pages integrated with APIs.
+  - Fully functional and responsive navigation bar and footer.
 
 ---
 
-### **Week 3: Live Scores and Player Stats**
-- **Goal:** Implement live score updates and player statistics.
+### **Week 3: Carousel and Animations**
+- **Goal:** Create a dynamic carousel for displaying content.
 - **Tasks:**
-  1. Integrate Socket.IO for real-time score updates.
-     - **Reading:** [Socket.IO Guide](https://socket.io/docs/v4/)
-     - **Video:** [Real-Time Updates with Socket.IO](https://www.youtube.com/watch?v=O6JcOfhHz8k)
-  2. Create a page for player statistics.
-     - **Reading:** [Angular Components](https://angular.io/guide/component-overview)
-     - **Video:** [Build Dynamic Components](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
+  1. Implement the carousel with sliding animations using JavaScript.
+     - **Reading:** [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
+     - **Video:** [JavaScript Carousel Tutorial](https://www.youtube.com/watch?v=49pYIMygIcU)
+  2. Add CSS animations for smooth transitions.
+     - **Reading:** [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+     - **Video:** [CSS Animation Tutorial](https://www.youtube.com/watch?v=OU5F8MkoQRY)
 
 - **Deliverables:**
-  - Live scores displayed on the match page.
-  - Player statistics page.
+  - A responsive and animated carousel for featured content.
 
 ---
 
-### **Week 4: Gmail Integration and Notifications**
-- **Goal:** Add email notifications for match updates.
+### **Week 4: Search and Content Organization**
+- **Goal:** Add a search feature and organize content.
 - **Tasks:**
-  1. Set up Gmail integration for sending notifications.
-     - **Reading:** [Node.js Gmail Integration](https://nodemailer.com/about/)
-     - **Video:** [Send Emails with Node.js](https://www.youtube.com/watch?v=-rcRf7yswfM)
-  2. Create a notification management interface.
-     - **Reading:** [Angular Forms Guide](https://angular.io/guide/forms-overview)
-     - **Video:** [Angular Forms Tutorial](https://www.youtube.com/watch?v=kK_Wqx3RnHk)
+  1. Implement the search bar and filter functionality.
+     - **Reading:** [JavaScript Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+     - **Video:** [Search Bar Tutorial](https://www.youtube.com/watch?v=x7Ewtay0Q78)
+  2. Organize content into categories using CSS grid and flexbox.
+     - **Reading:** [Flexbox Guide](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+     - **Video:** [CSS Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE)
 
 - **Deliverables:**
-  - Email notifications for match updates.
-  - Notification management interface.
+  - Functional search feature and organized content layout.
 
 ---
 
-### **Week 5: Deployment and Testing**
-- **Goal:** Deploy the application and test all features.
+### **Week 5: Deployment**
+- **Goal:** Deploy the application and ensure responsiveness.
 - **Tasks:**
-  1. Test APIs and UI components.
-     - **Reading:** [Testing Angular Apps](https://angular.io/guide/testing-overview)
-     - **Video:** [Testing Angular Applications](https://www.youtube.com/watch?v=VJov5QWEKE4)
-  2. Deploy the application using a cloud platform.
-     - **Reading:** [Angular Deployment Guide](https://angular.io/guide/deployment)
-     - **Video:** [Deploy Angular Apps](https://www.youtube.com/watch?v=l134cBAJCuc)
+  1. Test responsiveness across devices and browsers.
+     - **Reading:** [Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+     - **Video:** [Responsive Web Design](https://www.youtube.com/watch?v=srvUrASNj0s)
+  2. Deploy the application using GitHub Pages.
+     - **Reading:** [GitHub Pages Guide](https://pages.github.com/)
+     - **Video:** [GitHub Pages Tutorial](https://www.youtube.com/watch?v=2MsN8gpT6jY)
 
 - **Deliverables:**
-  - Fully deployed Cricbuzz IPL Clone accessible via public URL.
+  - A fully deployed Hotstar clone accessible via a public URL.
 
 ---
+
 ### Screenshots
 
 ![Screenshot (456)](https://github.com/user-attachments/assets/6315a909-ec8b-4d4c-930e-d0fa9ced8f4e)
@@ -181,10 +151,14 @@ This project is structured to ensure a systematic and incremental development pr
 ![Screenshot (455)](https://github.com/user-attachments/assets/82d3fc25-5ef4-4cc3-9ec8-9060e787d4d0)
 
 ---
+
 ### **References**
-1. [Angular Documentation](https://angular.io/docs)
-2. [MongoDB Atlas Documentation](https://www.mongodb.com/docs/atlas/)
-3. [Express.js Documentation](https://expressjs.com/)
-4. [Socket.IO Documentation](https://socket.io/docs/v4/)
+1. [HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
+2. [CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+3. [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+4. [GitHub Pages Documentation](https://pages.github.com/)
 5. https://www.youtube.com/watch?v=f8H1MdZ-n0A&list=PL7zl8TDRnbumpKVoizvKsr3u9ZNWLyxnK&index=1
+
+
+
 
