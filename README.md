@@ -88,7 +88,7 @@ This project is structured to ensure a systematic and incremental development pr
 - **Goal:** Add a fully functional navigation bar and footer.
 - **Tasks:**
   1. Implement the navigation menu with dropdown options.
-     - **Reading:** [Responsive Navigation](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+     - **Reading:** [Responsive Navigation](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
      - **Video:** [Responsive Navbar Tutorial](https://www.youtube.com/watch?v=At4B7A4GOPg)
   2. Style the footer with links and contact information.
      - **Reading:** [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
@@ -104,10 +104,10 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**
   1. Implement the carousel with sliding animations using JavaScript.
      - **Reading:** [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
-     - **Video:** [JavaScript Carousel Tutorial](https://www.youtube.com/watch?v=49pYIMygIcU)
+     - **Video:** [JavaScript Carousel Tutorial](https://www.youtube.com/watch?v=hKB-YGF14SY&t=182s)
   2. Add CSS animations for smooth transitions.
      - **Reading:** [CSS Transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
-     - **Video:** [CSS Animation Tutorial](https://www.youtube.com/watch?v=OU5F8MkoQRY)
+     - **Video:** [CSS Animation Tutorial](https://www.youtube.com/watch?v=pHI4PBFM0wY)
 
 - **Deliverables:**
   - A responsive and animated carousel for featured content.
@@ -119,7 +119,7 @@ This project is structured to ensure a systematic and incremental development pr
 - **Tasks:**
   1. Implement the search bar and filter functionality.
      - **Reading:** [JavaScript Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-     - **Video:** [Search Bar Tutorial](https://www.youtube.com/watch?v=x7Ewtay0Q78)
+     - **Video:** [Javascript Events Tutorial](https://www.youtube.com/watch?v=_ALUMTa8BAE)
   2. Organize content into categories using CSS grid and flexbox.
      - **Reading:** [Flexbox Guide](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
      - **Video:** [CSS Flexbox Tutorial](https://www.youtube.com/watch?v=fYq5PXgSsbE)
@@ -137,7 +137,7 @@ This project is structured to ensure a systematic and incremental development pr
      - **Video:** [Responsive Web Design](https://www.youtube.com/watch?v=srvUrASNj0s)
   2. Deploy the application using GitHub Pages.
      - **Reading:** [GitHub Pages Guide](https://pages.github.com/)
-     - **Video:** [GitHub Pages Tutorial](https://www.youtube.com/watch?v=2MsN8gpT6jY)
+     - **Video:** [GitHub Pages Tutorial](https://www.youtube.com/watch?v=Ez8F0nW6S-w&t=1s)
 
 - **Deliverables:**
   - A fully deployed Hotstar clone accessible via a public URL.
